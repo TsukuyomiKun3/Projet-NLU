@@ -1,0 +1,32 @@
+# ─────────────────────────────────────────────────────────────────────
+# L'ONTOLOGIE DE TON PROJET : remplace tout ce qui suit par ton sujet.
+# (Pour partir de l'exemple domotique :  make exemple-domotique)
+#
+# Règles :
+#  - noms en minuscules, chiffres et _ seulement (ex. : reserver_table) ;
+#  - 3 à 12 intentions, chacune avec une description courte et claire ;
+#  - 0 à 8 types de slots. Une tâche SANS slot (classification seule) est
+#    possible : écris alors  slots: {}
+# Une réponse du modèle aura la forme :  intention | slot=valeur | slot=valeur
+# ─────────────────────────────────────────────────────────────────────
+
+domaine: assistant de réservation et commande pour un restaurant
+
+intentions:
+  reserver: l'utilisateur veut réserver une table
+  annuler_reservation: l'utilisateur veut annuler une réservation existante
+  modifier_reservation: l'utilisateur veut changer une réservation existante (heure, nombre de personnes)
+  privatiser_salle: l'utilisateur veut réserver toute la salle pour un événement
+  commander_emporter: l'utilisateur commande des plats à emporter
+  horaires: l'utilisateur demande les heures d'ouverture
+  menu: l'utilisateur demande des informations sur les plats
+  acces: l'utilisateur demande où se trouve le restaurant, le parking ou la terrasse
+
+slots:
+  personnes: nombre de convives, recopié du message (« deux », « 4 »)
+  date: jour de la réservation, recopié du message
+  heure: heure de la réservation, recopiée du message
+  reference: numéro de réservation, recopié du message
+  plat: plat ou régime demandé, recopié du message
+  quantite: nombre d'unités commandées, recopié du message
+  lieu: endroit précis (terrasse, parking, salle), recopié du message

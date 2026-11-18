@@ -1,0 +1,25 @@
+phrase;reponse
+bonjour je voudrais une table pour trois personnes mardi soir;reserver | personnes=trois | date=mardi soir
+réservez-moi une place en terrasse pour 4 à midi;reserver | lieu=terrasse | personnes=4 | heure=midi
+peut-on réserver une table dimanche à douze heures trente ?;reserver | date=dimanche | heure=douze heures trente
+merci d'annuler ma réservation numéro rt55;annuler_reservation | reference=rt55
+je dois annuler notre table de vendredi soir;annuler_reservation | date=vendredi soir
+annulez ma réservation prévue à dix-neuf heures trente;annuler_reservation | heure=dix-neuf heures trente
+je souhaite modifier ma réservation mn77 pour cinq personnes;modifier_reservation | reference=mn77 | personnes=cinq
+peut-on avancer notre réservation de samedi à dix-neuf heures ?;modifier_reservation | date=samedi | heure=dix-neuf heures
+finalement nous serons dix personnes demain midi;modifier_reservation | personnes=dix | date=demain | heure=midi
+peut-on privatiser la salle pour quarante personnes vendredi soir ?;privatiser_salle | lieu=salle | personnes=quarante | date=vendredi soir
+je voudrais privatiser la terrasse demain soir;privatiser_salle | lieu=terrasse | date=demain soir
+combien coûte la location de la salle pour vingt-cinq personnes ?;privatiser_salle | lieu=salle | personnes=vingt-cinq
+je prends trois lasagnes à emporter pour vingt heures;commander_emporter | quantite=trois | plat=lasagnes | heure=vingt heures
+deux pâtes carbonara à emporter s'il vous plaît;commander_emporter | quantite=deux | plat=pâtes carbonara
+je voudrais commander cinq sushis à emporter ce soir;commander_emporter | quantite=cinq | plat=sushis | date=ce soir
+vous ouvrez à quelle heure demain matin ?;horaires | date=demain
+jusqu'à quelle heure servez-vous le dimanche soir ?;horaires | date=dimanche soir
+quelles sont les heures d'ouverture du restaurant ?;horaires
+proposez-vous un menu vegan ?;menu | plat=menu vegan
+quelle est la spécialité de viande du chef ?;menu | plat=spécialité de viande
+avez-vous une mousse au chocolat en dessert ?;menu | plat=mousse au chocolat
+le parking est-il gratuit pour les clients ?;acces | lieu=parking
+quelle est l'adresse exacte du restaurant ?;acces
+la terrasse est-elle accessible en fauteuil roulant ?;acces | lieu=terrasse

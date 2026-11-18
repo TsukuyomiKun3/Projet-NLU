@@ -1,0 +1,97 @@
+phrase;reponse
+une table pour deux personnes ce soir à vingt heures;reserver | personnes=deux | date=ce soir | heure=vingt heures
+je voudrais réserver pour quatre demain midi en terrasse;reserver | personnes=quatre | date=demain | heure=midi | lieu=terrasse
+pouvez-vous me réserver une table pour six vendredi à vingt heures trente ?;reserver | personnes=six | date=vendredi | heure=vingt heures trente
+on voudrait une table pour 3 personnes jeudi soir;reserver | personnes=3 | date=jeudi soir
+réservez une table pour huit dans la salle principale samedi;reserver | personnes=huit | lieu=salle principale | date=samedi
+j'aimerais réserver une table pour cinq à treize heures;reserver | personnes=cinq | heure=treize heures
+auriez-vous une table pour 2 personnes ce midi ?;reserver | personnes=2 | date=ce midi
+je souhaite réserver en terrasse pour sept personnes dimanche midi;reserver | lieu=terrasse | personnes=sept | date=dimanche | heure=midi
+une réservation pour dix personnes le 24 mai à dix-neuf heures;reserver | personnes=dix | date=24 mai | heure=dix-neuf heures
+peut-on réserver une table pour deux ce soir ?;reserver | personnes=deux | date=ce soir
+je veux réserver une table dans la salle pour 4 personnes;reserver | lieu=salle | personnes=4
+est-il possible d'avoir une table pour trois demain à midi trente ?;reserver | personnes=trois | date=demain | heure=midi trente
+annulez ma table, la référence c'est ZX44;annuler_reservation | reference=zx44
+je voudrais annuler ma réservation numéro 89b;annuler_reservation | reference=89b
+pouvez-vous annuler notre réservation de ce soir à vingt heures ?;annuler_reservation | date=ce soir | heure=vingt heures
+j'annule ma réservation pour quatre personnes demain midi;annuler_reservation | personnes=quatre | date=demain | heure=midi
+il faut annuler ma réservation tr102 s'il vous plaît;annuler_reservation | reference=tr102
+nous devons annuler notre table réservée pour samedi soir;annuler_reservation | date=samedi soir
+je souhaite annuler ma réservation prévue à treize heures;annuler_reservation | heure=treize heures
+merci d'annuler la réservation sous la référence pk78;annuler_reservation | reference=pk78
+je ne pourrai pas venir, j'annule ma réservation de jeudi;annuler_reservation | date=jeudi
+annulez ma réservation pour deux personnes ce midi;annuler_reservation | personnes=deux | date=ce midi
+je veux annuler ma réservation numéro cd450 pour demain;annuler_reservation | reference=cd450 | date=demain
+pouvez-vous supprimer ma réservation de dimanche à midi ?;annuler_reservation | date=dimanche | heure=midi
+j'avais réservé pour six mais on sera finalement quatre, RS3380;modifier_reservation | reference=rs3380 | personnes=quatre
+pourriez décaler ma table RS1200 à vingt-et-une heures ?;modifier_reservation | reference=rs1200 | heure=vingt-et-une heures
+je voudrais modifier l'heure de ma réservation pour vingt heures trente;modifier_reservation | heure=vingt heures trente
+on sera finalement cinq personnes au lieu de trois ce soir;modifier_reservation | personnes=cinq | date=ce soir
+pouvez-vous changer ma réservation ab45 pour demain soir ?;modifier_reservation | reference=ab45 | date=demain soir
+je souhaite déplacer notre réservation en terrasse pour samedi;modifier_reservation | lieu=terrasse | date=samedi
+est-il possible de rajouter deux personnes sur la réservation lm22 ?;modifier_reservation | personnes=deux | reference=lm22
+je voudrais décaler notre table de midi à treize heures trente;modifier_reservation | heure=treize heures trente
+nous serons finalement 6 personnes demain à vingt heures;modifier_reservation | personnes=6 | date=demain | heure=vingt heures
+peut-on modifier la réservation fg99 pour être dans la salle ?;modifier_reservation | reference=fg99 | lieu=salle
+j'aimerais repousser ma réservation de vendredi à vingt et une heures;modifier_reservation | date=vendredi | heure=vingt et une heures
+on voudrait changer notre réservation pour quatre personnes dimanche;modifier_reservation | personnes=quatre | date=dimanche
+on veut privatiser la salle du fond pour la fête de mon père le 12 juin;privatiser_salle | lieu=salle du fond | date=12 juin
+je souhaite privatiser toute la salle pour cinquante personnes samedi soir;privatiser_salle | lieu=salle | personnes=cinquante | date=samedi soir
+est-ce possible de privatiser la terrasse pour vingt personnes vendredi ?;privatiser_salle | lieu=terrasse | personnes=vingt | date=vendredi
+nous voudrions privatiser le restaurant le 10 juillet;privatiser_salle | date=10 juillet
+peut-on privatiser la salle principale pour un mariage ?;privatiser_salle | lieu=salle principale
+je voudrais réserver toute la salle pour trente-cinq personnes demain soir;privatiser_salle | lieu=salle | personnes=trente-cinq | date=demain soir
+comment faire pour privatiser la terrasse dimanche midi ?;privatiser_salle | lieu=terrasse | date=dimanche | heure=midi
+on aimerait privatiser votre salle pour 40 personnes le 5 juin;privatiser_salle | lieu=salle | personnes=40 | date=5 juin
+est-il possible de privatiser la salle à partir de dix-neuf heures ?;privatiser_salle | lieu=salle | heure=dix-neuf heures
+nous cherchons à privatiser la terrasse pour un séminaire jeudi;privatiser_salle | lieu=terrasse | date=jeudi
+je veux privatiser la salle pour vingt personnes ce samedi;privatiser_salle | lieu=salle | personnes=vingt | date=ce samedi
+pouvez-vous privatiser la salle du haut pour 25 personnes ?;privatiser_salle | lieu=salle du haut | personnes=25
+on prend trois burgers à emporter pour dix-neuf heures quinze;commander_emporter | plat=burgers | quantite=trois | heure=dix-neuf heures quinze
+je voudrais commander deux pizzas margherita à emporter;commander_emporter | quantite=deux | plat=pizzas margherita
+puis-je commander quatre salades grecques à emporter pour midi ?;commander_emporter | quantite=quatre | plat=salades grecques | heure=midi
+je prends un poulet rôti à emporter ce soir;commander_emporter | quantite=un | plat=poulet rôti | date=ce soir
+trois tartes aux pommes à emporter pour vingt heures s'il vous plaît;commander_emporter | quantite=trois | plat=tartes aux pommes | heure=vingt heures
+on voudrait commander 5 kebabs à emporter pour dix-neuf heures;commander_emporter | quantite=5 | plat=kebabs | heure=dix-neuf heures
+je souhaite prendre deux soupes à l'oignon à emporter;commander_emporter | quantite=deux | plat=soupes à l'oignon
+une quiche lorraine à emporter pour demain midi;commander_emporter | quantite=une | plat=quiche lorraine | date=demain | heure=midi
+peut-on commander six samosas à emporter pour ce soir ?;commander_emporter | quantite=six | plat=samosas | date=ce soir
+je voudrais trois couscous royal à emporter à vingt heures trente;commander_emporter | quantite=trois | plat=couscous royal | heure=vingt heures trente
+deux desserts au chocolat à emporter s'il vous plaît;commander_emporter | quantite=deux | plat=desserts au chocolat
+je commande 4 boissons fraîches et un risotto à emporter;commander_emporter | quantite=4 | plat=risotto
+vous ouvrez le dimanche matin pour le brunch ?;horaires
+à quelle heure ouvrez-vous le soir en semaine ?;horaires
+êtes-vous ouverts le mardi soir ?;horaires | date=mardi soir
+quels sont les horaires du restaurant le week-end ?;horaires | date=week-end
+vous fermez à quelle heure ce soir ?;horaires | date=ce soir
+à partir de quelle heure servez-vous le midi ?;horaires | heure=midi
+le restaurant est-il ouvert demain soir ?;horaires | date=demain soir
+quelles sont vos heures d'ouverture le jeudi ?;horaires | date=jeudi
+est-ce que vous êtes ouverts le 14 juillet ?;horaires | date=14 juillet
+jusqu'à quelle heure la cuisine est-elle ouverte le soir ?;horaires
+vous êtes ouverts entre midi et quatorze heures ?;horaires | heure=midi
+à quelle heure commence le service du vendredi soir ?;horaires | date=vendredi soir
+ma sœur est intolérante au sucre, vous avez un dessert sans sucre ?;menu | plat=dessert sans sucre
+qu'est-ce qu'il y a dans le menu du jour ?;menu | plat=menu du jour
+avez-vous des plats halal sur votre carte ?;menu | plat=plats halal
+quels sont vos desserts maison ?;menu | plat=desserts maison
+proposez-vous des pizzas sans fromage ?;menu | plat=pizzas sans fromage
+est-ce que vous servez des fruits de mer ?;menu | plat=fruits de mer
+avez-vous un menu enfant ?;menu | plat=menu enfant
+quelle est la composition de la salade niçoise ?;menu | plat=salade niçoise
+vous avez des options végétaliennes au menu ?;menu | plat=options végétaliennes
+quels plats de pâtes proposez-vous ?;menu | plat=plats de pâtes
+y a-t-il des arachides dans votre curry de légumes ?;menu | plat=curry de légumes
+que proposez-vous comme entrée froide ?;menu | plat=entrée froide
+je voudrais savoir si la terrasse est couverte;acces | lieu=terrasse
+où se trouve le parking le plus proche ?;acces | lieu=parking
+comment venir au restaurant en transports ?;acces
+avez-vous des places dans le parking souterrain ?;acces | lieu=parking souterrain
+la salle est-elle climatisée en été ?;acces | lieu=salle
+est-ce que la terrasse est chauffée l'hiver ?;acces | lieu=terrasse
+où est situé votre restaurant exactement ?;acces
+peut-on se garer facilement sur le parking du restaurant ?;acces | lieu=parking
+y a-t-il un accès sans escalier pour la salle du fond ?;acces | lieu=salle du fond
+le parking est-il ouvert le soir ?;acces | lieu=parking
+la terrasse donne-t-elle sur la rue piétonne ?;acces | lieu=terrasse
+comment accéder au parking arrière du restaurant ?;acces | lieu=parking arrière

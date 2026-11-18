@@ -1,0 +1,25 @@
+phrase;reponse
+je voudrais réserver une table pour quatre samedi soir;reserver | personnes=quatre | date=samedi soir
+une table pour deux personnes demain à vingt heures en terrasse;reserver | personnes=deux | date=demain | heure=vingt heures | lieu=terrasse
+est-ce possible de réserver pour 6 personnes vendredi midi ?;reserver | personnes=6 | date=vendredi | heure=midi
+je souhaite annuler ma réservation pour demain soir;annuler_reservation | date=demain soir
+pouvez-vous annuler la réservation numéro ab123 ?;annuler_reservation | reference=ab123
+j'annule ma table de samedi à vingt heures trente;annuler_reservation | date=samedi | heure=vingt heures trente
+je voudrais décaler ma réservation de demain à vingt et une heures;modifier_reservation | date=demain | heure=vingt et une heures
+on sera finalement huit personnes pour la réservation kl90;modifier_reservation | personnes=huit | reference=kl90
+peut-on changer l'heure de notre réservation à treize heures ?;modifier_reservation | heure=treize heures
+nous aimerions privatiser la salle pour trente personnes samedi prochain;privatiser_salle | lieu=salle | personnes=trente | date=samedi prochain
+est-il possible de privatiser la terrasse le 15 mai ?;privatiser_salle | lieu=terrasse | date=15 mai
+je veux privatiser votre salle pour un anniversaire;privatiser_salle | lieu=salle
+je voudrais commander deux pizzas royale à emporter;commander_emporter | quantite=deux | plat=pizzas royale
+puis-je prendre quatre tiramisus à emporter pour dix-neuf heures ?;commander_emporter | quantite=quatre | plat=tiramisus | heure=dix-neuf heures
+une salade césar à emporter pour midi trente s'il vous plaît;commander_emporter | quantite=une | plat=salade césar | heure=midi trente
+à quelle heure fermez-vous le samedi soir ?;horaires | date=samedi soir
+quels sont vos horaires d'ouverture cette semaine ?;horaires
+êtes-vous ouverts le lundi midi ?;horaires | date=lundi
+avez-vous des plats végétariens à la carte ?;menu | plat=plats végétariens
+qu'est-ce que vous proposez comme poisson du jour ?;menu | plat=poisson du jour
+est-ce qu'il y a des options sans gluten dans le menu ?;menu | plat=options sans gluten
+avez-vous un parking privé à côté du restaurant ?;acces | lieu=parking privé
+comment fait-on pour accéder à la terrasse ?;acces | lieu=terrasse
+où se trouve l'entrée de la salle principale ?;acces | lieu=salle principale
